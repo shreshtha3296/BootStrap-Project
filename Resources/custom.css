@@ -1,0 +1,87 @@
+.nav-link:hover{
+    border-bottom: 2px solid black;
+}
+header{
+    background:url(Banner.jpg);
+    background-size:cover;
+    background-position: center;
+    text-align: left;
+    color: white;
+    padding: 150px 50PX;
+}
+header img {
+    height: 80px;
+}
+div >.btn_box{
+    display: flex;
+    text-align: center;
+    margin: 45px;
+}
+.heading_container h2{
+    position: relative;
+    margin-bottom:0 ;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.food_section h2{
+    margin:40px -20px 0px 0px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.food_section .filters_menu {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 45px 0 20px 0;
+}
+.food_section li{
+    display: inline-block;
+    margin: 0px 20px;
+    padding: 0px 5px;
+}
+.food_section li:hover{
+    background-color: brown;
+    border-radius: 10px ;
+
+}
+#xyz{
+    margin: 0px 600px;
+    text-align: center;
+    text-decoration: none;
+}
+#xyz:hover{
+    border-radius: 10px;
+
+
+}
+footer >div{
+    display: inline-block;
+    margin: 20px;
+}
+#a1 {
+  padding: 10px; 
+  text-align: center;
+}
+#a1 button:hover{
+    transform: scale(1.5);
+    background-color: yellow;
+    border-radius: 10px;
+    
+}
+#a2{
+    padding-top: 120px;
+}
+#a3{
+    text-align: start;
+}
+.xyz{
+    transition: 1s;
+}
+.xyz:hover{
+    transform: scale(1.2);
+}
+#top-button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
